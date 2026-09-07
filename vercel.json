@@ -1,14 +1,11 @@
 {
-  "name": "ai-general-contractor",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.2.3",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+  "framework": "nextjs",
+  "functions": {
+    "pages/api/research.js": {
+      "maxDuration": 300
+    },
+    "pages/api/agent.js": {
+      "maxDuration": 120
+    }
   }
 }
